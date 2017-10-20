@@ -1,0 +1,11 @@
+$TTL      86400
+@            IN SOA  telussecuritylabs.com.  admin.telussecuritylabs.com. (
+		57                ; serial (d. adams)
+		3H                ; refresh
+		15M                ; retry
+		1W                ; expiry
+		1D )              ; minimum
+@	IN      NS     dns.telussecuritylabs.com.
+@ 	IN      MX  5  www
+www     IN      A      192.168.100.90
+cname	IN	CNAME	www.telussecuritylabs.com

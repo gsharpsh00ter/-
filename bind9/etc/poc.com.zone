@@ -1,0 +1,12 @@
+$TTL      86400
+@            IN SOA  poc.com.  admin.poc.com. (
+		57                ; serial (d. adams)
+		3H                ; refresh
+		15M                ; retry
+		1W                ; expiry
+		1D )              ; minimum
+@	IN      NS     dns.poc.com.
+@ 	IN      MX  5  mail
+dns     IN      A      192.168.13.102
+mail    IN      A      192.168.13.102
+www     IN      A      192.168.100.90
